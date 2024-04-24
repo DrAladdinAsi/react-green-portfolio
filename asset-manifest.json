@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-green-portfolio/static/css/main.a7f299b4.css",
+    "main.js": "/react-green-portfolio/static/js/main.f4b62915.js",
+    "static/js/453.ed3810f9.chunk.js": "/react-green-portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/girlWithcamera.jpg": "/react-green-portfolio/static/media/girlWithcamera.b22a7c36ee335d4d4da7.jpg",
+    "static/media/screenShotProject.png": "/react-green-portfolio/static/media/screenShotProject.c24b1ac5f90746a7855e.png",
+    "static/media/me.png": "/react-green-portfolio/static/media/me.495dde6d4bdda121e97d.png",
+    "static/media/award.png": "/react-green-portfolio/static/media/award.a796a64fbb78cc3a9666.png",
+    "static/media/address.png": "/react-green-portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/react-green-portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/sun.png": "/react-green-portfolio/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/phone.png": "/react-green-portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/moon.png": "/react-green-portfolio/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/react-green-portfolio/index.html",
+    "main.a7f299b4.css.map": "/react-green-portfolio/static/css/main.a7f299b4.css.map",
+    "main.f4b62915.js.map": "/react-green-portfolio/static/js/main.f4b62915.js.map",
+    "453.ed3810f9.chunk.js.map": "/react-green-portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7f299b4.css",
+    "static/js/main.f4b62915.js"
+  ]
+}
