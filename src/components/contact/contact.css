@@ -1,0 +1,135 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.contact_sideColumn{
+ height: 100%;
+ width: 1.6rem;
+ background-color: green;
+
+}
+
+.contact_list{
+    display: flex;
+    width: 100%;
+}
+
+.contact_leftSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contact_rightSide{
+    flex: 1;
+}
+
+.contact_leftSide_bg_title{
+    font-size: 2rem;
+    font-weight: 600;
+    width: 50%;
+}
+
+
+.contact_infos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info_item{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-left: 1rem;
+}
+
+
+
+.info_item span{
+    font-size: 1rem;
+}
+
+
+.info_item_image{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.contact_rightSide form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.contact_rightSide form input{
+    width: 80%;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: .9rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contact_rightSide form textarea{
+    width: 90%;
+    font-size: .9rem;
+}
+
+.contact_btn{
+    align-self: flex-start;
+    margin-left: 2rem;
+    border: none;
+    padding: 1rem;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.map_contact{
+    width: 90%;
+    height: 19rem;
+    margin-left: .5rem;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:844px){ 
+    .contact_list{
+        flex-direction: column;
+    }
+
+    .map_contact{
+        display: none;
+    }
+
+    .contact_leftSide{
+        gap: 3rem;
+    }
+    .contact_infos{
+        gap: 2rem;
+    }
+
+    .contact_leftSide_bg_title{
+        font-size: 1.6rem;
+    }
+
+    .contact_rightSide form input{
+        margin-top: .5rem;
+        padding: .5rem;
+        font-size: .9rem;
+    }
+    .contact_rightSide form textarea{
+        height: 5rem;
+    }
+    
+}

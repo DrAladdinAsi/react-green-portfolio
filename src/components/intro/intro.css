@@ -1,0 +1,115 @@
+.intro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.left_intro{
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.left_intro_wrapper{
+    padding: 5rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.left_intro_title{
+    font-weight: 400;
+}
+
+.left_intro_name{
+    margin-bottom: 2rem;
+}
+
+.my_jobs{
+    margin-bottom: 1rem;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.jobs_wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25% {
+      transform: translateY(-3rem);
+    }
+    50% {
+      transform: translateY(-6rem);
+    }
+    75% {
+      transform: translateY(-9rem);
+    }
+    100% {
+      transform: translateY(-12rem);
+    }
+  }
+
+.job_item{
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(26, 143, 26);
+    display: flex;
+    align-items: center;
+
+}
+
+.intro_desc{
+    line-height: 1.4rem;
+    font-size: 1.05rem;
+   
+}
+
+
+.i-scroll{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+    cursor: pointer;
+}
+
+.right_intro{
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.right_intro_background{   
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(100% 0%, 100% 57%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: rgb(26, 143, 26);
+
+}
+
+.right_intro_image{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+@media screen and (max-width:510px){
+    .intro{
+        flex-direction: column;
+    }
+
+    .my_jobs{
+        display: none;
+    }
+}
+

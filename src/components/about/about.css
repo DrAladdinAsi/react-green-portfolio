@@ -1,0 +1,135 @@
+.about{
+    height: 100vh;
+    display: flex;
+}
+
+.about_left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about_photographer_background{
+    width: 18rem;
+    height: 25rem;
+    border-radius: .6rem;
+    background-color: rgb(71, 71, 71);
+    position: absolute;
+    top: 6rem;
+    left:8rem;
+}
+
+.about_image_photographer{
+    width: 18rem;
+    height: 25rem;
+    border-radius: .6rem;
+    position: absolute;
+}
+
+
+.about_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+  
+}
+
+.about_right_title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+.subTitle{
+    font-size: 1.2rem;
+}
+
+.about_right_parghraph{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.about_right_text{
+    display: flex;
+    margin-top: 1.2rem;
+    gap: 1.2rem;
+}
+
+.about_image_right_award{
+    width: 6rem;
+    height: 6rem;
+    border-radius: .5rem;
+}
+
+.about_right_text_inside{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.about_right_title_for_text{
+    font-size: 1.2rem;
+   
+}
+
+.about_right_text_pargraph_image{
+  font-size: .95rem;
+  
+}
+
+
+@media screen and (max-width:571px){
+    .about{
+        flex-direction: column;
+    }
+
+    .about_photographer_background{
+        display: none;
+    }
+
+    .about_image_right_award{
+        display: none;
+    }
+
+
+    .about_image_photographer{
+       width: 40%;
+       height: 60%;
+    }
+    .about_right{
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .about_right_text{
+     display: none;
+    }
+}
+
+
+@media screen and (max-width:852px){
+    .about_photographer_background{
+        display: none;
+    }
+    .about_right{
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width:646px){
+    .about_image_right_award{
+        display: none;
+    }
+    .about_right{
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+}

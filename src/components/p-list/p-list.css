@@ -1,0 +1,40 @@
+.p-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.p-list_title{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.p-list_pargraph{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.p-list_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     width: 80%;
+     padding: 0rem 2rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width:480px){
+    .p-list{
+        text-align: center;
+    }
+    .p-list_title{
+        padding: 1rem;
+    }
+
+    .p-list_pargraph{
+        padding: 1rem;
+    }
+
+}
